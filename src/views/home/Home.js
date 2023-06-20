@@ -87,16 +87,16 @@ const TypeSearch = () => {
       <div className='MainPageContainer'>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
           <Grid item xs={3}>
-            <Card>
+            <Card className='cardBody'>
               <div className='Card globalFont'>
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
-                  <CalendarPicker />
+                  <CalendarPicker/>
                 </LocalizationProvider>
               </div>
             </Card>
-            <Card>
+            <Card className='cardBody CardInit'>
               <div className='Card aligncenter'>
-                <Button variant="contained" target="_blank" className="redbutton globalFont">
+                <Button variant="contained" target="_blank" className="redbutton globalFont fillContent">
                   Achives
                 </Button>
                 <div className='aligncenter'>
@@ -111,9 +111,9 @@ const TypeSearch = () => {
             </Card>
           </Grid>
           <Grid item xs={6}>
-            <Card>
+            <Card className='cardBody CardInit'>
               <div className='Card aligncenter'>
-                <Button variant="contained" target="_blank" className="redbutton globalFont">
+                <Button variant="contained" target="_blank" className="redbutton globalFont fillContent">
                   Smash Vision Video(May 31 2023)
                 </Button>
               </div>
@@ -154,9 +154,9 @@ const TypeSearch = () => {
                 </Button>
               </div>
             </Card>
-            <Card>
+            <Card className='cardBody CardInit'>
               <div className='Card aligncenter'>
-                <Button variant="contained" target="_blank" className="redbutton globalFont">
+                <Button variant="contained" target="_blank" className="redbutton globalFont fillContent">
                   Smash Vision Video(May 31 2023)
                 </Button>
               </div>
@@ -188,7 +188,7 @@ const TypeSearch = () => {
               </div>
 
               <div className='Card aligncenter'>
-                <Typography className='globalFont' style={{ textAlign: "left" }}>
+                <Typography className='globalFont' style={{ textAlign: "left", paddingTop: "20px", }}>
                   This content is for members only
                 </Typography>
                 <Button variant="contained" target="_blank" className="borderradius20button globalFont">
@@ -199,33 +199,33 @@ const TypeSearch = () => {
             </Card>
           </Grid>
           <Grid item xs={3}>
-            <Card>
+            <Card className='cardBody CardInit'>
               <div className='Card aligncenter'>
-                <Typography className='globalFont'>
+                <Typography className='globalFont padding5'>
                   1 Month Subscribtion
                 </Typography>
-                <Button variant="contained" target="_blank" className="redbutton globalFont">
+                <Button variant="contained" target="_blank" className="redbutton globalFont padding5 paddingLeftRight10">
                   Subscribe
                 </Button>
               </div>
-              <div className='Card aligncenter'>
+              <div className='Card aligncenter padding5'>
                 <img src={IMG} alt='' style={{ width: "-webkit-fill-available" }} />
               </div>
               <div className='Card aligncenter globalFont'>
-                <Typography className='gloabalFont'>
+                <Typography className='gloabalFont padding5'>
                   5+1 Month Subscribtion
                 </Typography>
-                <Button variant="contained" target="_blank" className="redbutton globalFont">
+                <Button variant="contained" target="_blank" className="redbutton globalFont padding5 paddingLeftRight10">
                   Subscribe
                 </Button>
               </div>
-              <div className='Card aligncenter'>
+              <div className='Card aligncenter padding5'>
                 <img src={IMG} alt='' style={{ width: "-webkit-fill-available" }} />
               </div>
             </Card>
-            <Card>
+            <Card className='cardBody CardInit'>
               <div className='Card aligncenter'>
-                <Button variant="contained" target="_blank" className="redbutton globalFont">
+                <Button variant="contained" target="_blank" className="redbutton globalFont fillContent">
                   Categories
                 </Button>
                 <div className='aligncenter'>
