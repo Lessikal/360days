@@ -10,7 +10,7 @@
 
 @media (min-width: 600px) {
     .css-9ysebv-MuiToolbar-root {
-        min-height: 64px;
-        justify-content: center;
+        min-height: 64px!important;
+        justify-content: center!important;
     }
 }
