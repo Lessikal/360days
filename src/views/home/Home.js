@@ -201,7 +201,7 @@ const TypeSearch = () => {
           <Grid item xs={3}>
             <Card className='cardBody CardInit'>
               <div className='Card aligncenter'>
-                <Typography className='globalFont padding5'>
+                <Typography className='globalFont padding5 font20'>
                   1 Month Subscribtion
                 </Typography>
                 <Button variant="contained" target="_blank" className="redbutton globalFont padding5 paddingLeftRight10">
@@ -212,7 +212,7 @@ const TypeSearch = () => {
                 <img src={IMG} alt='' style={{ width: "-webkit-fill-available" }} />
               </div>
               <div className='Card aligncenter globalFont'>
-                <Typography className='gloabalFont padding5'>
+                <Typography className='globalFont padding5 font20'>
                   5+1 Month Subscribtion
                 </Typography>
                 <Button variant="contained" target="_blank" className="redbutton globalFont padding5 paddingLeftRight10">
