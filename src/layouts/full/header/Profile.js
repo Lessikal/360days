@@ -54,7 +54,7 @@ const Profile = () => {
       {/* ------------------------------------------- */}
       {/* Message Dropdown */}
       {/* ------------------------------------------- */}
-      <Menu
+      {/* <Menu
         id="msgs-menu"
         anchorEl={anchorEl2}
         keepMounted
@@ -91,7 +91,7 @@ const Profile = () => {
             Logout
           </Button>
         </Box>
-      </Menu>
+      </Menu> */}
     </Box>
   );
 };
