@@ -101,11 +101,11 @@ const TypeSearch = () => {
                 </Button>
                 <div className='aligncenter'>
                   <Typography className='bagegray globalFont'>May 2023 [433]</Typography>
-                  <Typography className='bagegray globalFont'>May 2023 [433]</Typography>
-                  <Typography className='bagegray globalFont'>May 2023 [433]</Typography>
-                  <Typography className='bagegray globalFont'>May 2023 [433]</Typography>
-                  <Typography className='bagegray globalFont'>May 2023 [433]</Typography>
-                  <Typography className='bagegray globalFont'>May 2023 [433]</Typography>
+                  <Typography className='bagegray globalFont'>April 2023 [6532]</Typography>
+                  <Typography className='bagegray globalFont'>March 2023 [2653]</Typography>
+                  <Typography className='bagegray globalFont'>February 2023 [463]</Typography>
+                  <Typography className='bagegray globalFont'>January 2023 [832]</Typography>
+                  <Typography className='bagegray globalFont'>December 2022 [076]</Typography>
                 </div>
               </div>
             </Card>
@@ -122,7 +122,7 @@ const TypeSearch = () => {
                   <ListItemIcon>
                     <IconCalendarEvent width={20} />
                   </ListItemIcon>
-                  <ListItemText className="globalFont">May 31 2023</ListItemText>
+                  <ListItemText><Typography className="globalFont">May 31 2023</Typography></ListItemText>
                 </MenuItem>
               </div>
               <div className='Card'>
@@ -149,14 +149,14 @@ const TypeSearch = () => {
                   This content is for members only
                 </Typography>
                 <Button variant="contained" target="_blank" className="borderradius20button globalFont">
-                  <IconFolders />
-                  Smash Vision Video, VIDEO
+                  <IconFolders className='globalFont' />
+                  <Typography className='globalFont'>Smash Vision Video, VIDEO</Typography>
                 </Button>
               </div>
             </Card>
             <Card>
               <div className='Card aligncenter'>
-                <Button variant="contained" target="_blank" className="redbutton">
+                <Button variant="contained" target="_blank" className="redbutton globalFont">
                   Smash Vision Video(May 31 2023)
                 </Button>
               </div>
@@ -165,11 +165,11 @@ const TypeSearch = () => {
                   <ListItemIcon>
                     <IconCalendarEvent width={20} />
                   </ListItemIcon>
-                  <ListItemText>May 31 2023</ListItemText>
+                  <ListItemText><Typography className="globalFont">May 31 2023</Typography></ListItemText>
                 </MenuItem>
               </div>
-              <div className='Card'>
-                <Typography>
+              <div className='Card gloabalFont'>
+                <Typography className='globalFont'>
                   Set up and configure the development environment
                   Create a Laravel project and set up dependencies
                   Develop and implement database schema using MySQL
@@ -188,12 +188,12 @@ const TypeSearch = () => {
               </div>
 
               <div className='Card aligncenter'>
-                <Typography style={{ textAlign: "left" }}>
+                <Typography className='globalFont' style={{ textAlign: "left" }}>
                   This content is for members only
                 </Typography>
-                <Button variant="contained" target="_blank" className="borderradius20button">
-                  <IconFolders />
-                  Smash Vision Video, VIDEO
+                <Button variant="contained" target="_blank" className="borderradius20button globalFont">
+                  <IconFolders className='globalFont' />
+                  <Typography className='globalFont'>Smash Vision Video, VIDEO</Typography>
                 </Button>
               </div>
             </Card>
@@ -212,7 +212,7 @@ const TypeSearch = () => {
                 <img src={IMG} alt='' style={{ width: "-webkit-fill-available" }} />
               </div>
               <div className='Card aligncenter globalFont'>
-                <Typography>
+                <Typography className='gloabalFont'>
                   5+1 Month Subscribtion
                 </Typography>
                 <Button variant="contained" target="_blank" className="redbutton globalFont">
