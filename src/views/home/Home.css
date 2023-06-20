@@ -5,19 +5,19 @@
 
 .MuiOutlinedInput-adornedEnd {
     padding-right: 14px;
-    border: 1px solid white;
+    border: 1px solid white!important;
     border-radius: 20px !important;
-    width: -webkit-fill-available;
+    width: -webkit-fill-available!important;
 
 }
 
 .makeStyles-search-1 {
-    margin: 0;
-    width: -webkit-fill-available;
+    margin: 0!important;
+    width: -webkit-fill-available!important;
 }
 
 .MuiInputAdornment-positionStart {
-    margin-right: 8px;
+    margin-right: 8px!important;
     background-color: red !important;
     height: 40px !important;
     width: 40px !important;
@@ -32,28 +32,28 @@
 }
 
 .PageContaner {
-    padding: 150px;
-    padding-top: 20px;
+    padding: 150px!important;
+    padding-top: 20px!important;
 }
 
 .MainPageContainer {
-    padding: 40px;
+    padding: 40px!important;
 }
 
 .Card {
     padding: 10px !important;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238)!important;
 }
 
 .css-410zkp-MuiPaper-root-MuiCard-root {
     border-radius: 15px !important;
-    margin-bottom: 20px;
+    margin-bottom: 20px!important;
 }
 
 .css-nk89i7-MuiPickersCalendarHeader-root {
-    background-color: red;
-    border-radius: 10px;
-    color: white;
+    background-color: red!important;
+    border-radius: 10px!important;
+    color: white!important;
 }
 
 .redbutton {
@@ -67,17 +67,17 @@
 }
 
 .borderradius20button {
-    width: 80%;
-    height: 25px;
+    width: 80%!important;
+    height: 25px!important;
     border-radius: 20px !important;
     background-color: white !important;
     box-shadow: none!important;
 }
 
 .bagegray{
-    background-color: rgb(204, 204, 204);
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: rgb(204, 204, 204)!important;
+    border-radius: 20px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
     margin: 5px!important;
 }
